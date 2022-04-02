@@ -6,44 +6,51 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		B0FE18DD27F73A8F0096C745 /* matplot.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = matplot.py; sourceTree = "<group>"; };
+		B0FE18DE27F73AF50096C745 /* SomePythonCode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SomePythonCode; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
-		B0FE18C727F739960096C745 = {
+		B0FE18D227F73A4D0096C745 = {
 			isa = PBXGroup;
 			children = (
+				B0FE18DD27F73A8F0096C745 /* matplot.py */,
+				B0FE18DE27F73AF50096C745 /* SomePythonCode */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		B0FE18CC27F739960096C745 /* somePythonCode */ = {
+		B0FE18D727F73A4D0096C745 /* SomePythonCode */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = B0FE18CF27F739960096C745 /* Build configuration list for PBXLegacyTarget "somePythonCode" */;
+			buildConfigurationList = B0FE18DA27F73A4D0096C745 /* Build configuration list for PBXLegacyTarget "SomePythonCode" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/make;
+			buildToolPath = /Users/roy/opt/anaconda3/bin/python;
 			dependencies = (
 			);
-			name = somePythonCode;
+			name = SomePythonCode;
 			passBuildSettingsInEnvironment = 1;
-			productName = somePythonCode;
+			productName = SomePythonCode;
 		};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
-		B0FE18C827F739960096C745 /* Project object */ = {
+		B0FE18D327F73A4D0096C745 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					B0FE18CC27F739960096C745 = {
+					B0FE18D727F73A4D0096C745 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = B0FE18CB27F739960096C745 /* Build configuration list for PBXProject "somePythonCode" */;
+			buildConfigurationList = B0FE18D627F73A4D0096C745 /* Build configuration list for PBXProject "SomePythonCode" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -51,17 +58,17 @@
 				en,
 				Base,
 			);
-			mainGroup = B0FE18C727F739960096C745;
+			mainGroup = B0FE18D227F73A4D0096C745;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0FE18CC27F739960096C745 /* somePythonCode */,
+				B0FE18D727F73A4D0096C745 /* SomePythonCode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		B0FE18CD27F739960096C745 /* Debug */ = {
+		B0FE18D827F73A4D0096C745 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -117,7 +124,7 @@
 			};
 			name = Debug;
 		};
-		B0FE18CE27F739960096C745 /* Release */ = {
+		B0FE18D927F73A4D0096C745 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -166,7 +173,7 @@
 			};
 			name = Release;
 		};
-		B0FE18D027F739960096C745 /* Debug */ = {
+		B0FE18DB27F73A4D0096C745 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -180,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		B0FE18D127F739960096C745 /* Release */ = {
+		B0FE18DC27F73A4D0096C745 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -194,25 +201,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0FE18CB27F739960096C745 /* Build configuration list for PBXProject "somePythonCode" */ = {
+		B0FE18D627F73A4D0096C745 /* Build configuration list for PBXProject "SomePythonCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0FE18CD27F739960096C745 /* Debug */,
-				B0FE18CE27F739960096C745 /* Release */,
+				B0FE18D827F73A4D0096C745 /* Debug */,
+				B0FE18D927F73A4D0096C745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0FE18CF27F739960096C745 /* Build configuration list for PBXLegacyTarget "somePythonCode" */ = {
+		B0FE18DA27F73A4D0096C745 /* Build configuration list for PBXLegacyTarget "SomePythonCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0FE18D027F739960096C745 /* Debug */,
-				B0FE18D127F739960096C745 /* Release */,
+				B0FE18DB27F73A4D0096C745 /* Debug */,
+				B0FE18DC27F73A4D0096C745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B0FE18C827F739960096C745 /* Project object */;
+	rootObject = B0FE18D327F73A4D0096C745 /* Project object */;
 }
